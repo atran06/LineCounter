@@ -1,0 +1,2 @@
+In attemps to learn Python, I thought I would write a simple program to count the number of lines a folder of code has.
+I had recently finished up a pretty sizeable project and was curious as to how many lines of code my group and I wrote.
