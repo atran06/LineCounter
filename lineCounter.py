@@ -1,5 +1,17 @@
 import os
 
+def validExt(ext):
+
+    validExtentions = [".java", ".py", ".cpp", ".h"]
+
+    file = input("Enter a filename: ")
+
+    index = 0
+    while file[index : index + 1] != "." and index != len(file):
+        index += 1
+
+    return (file[index : len(file)] in validExtentions)
+
 def main():
 
     counter = 0
