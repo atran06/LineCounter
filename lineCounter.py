@@ -15,14 +15,9 @@ def validExt(filename, validExtentions):
 # Function: countLines(dir)
 # Desc: Counts how many lines are in a given file
 def countLines(dir):
-    counter = 0
-
     file = open(dir, errors = 'ignore').readlines() # reads lines of the file into a list
 
-    for _ in file:
-        counter += 1
-
-    return counter
+    return len(file)
 
 # Function: crawDirectories(dir, total, validExtentions)
 # Desc: Recursively goes through every file in a directory and utilizes countLines() to return the total 
